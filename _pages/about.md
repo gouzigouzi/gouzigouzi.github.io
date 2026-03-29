@@ -26,8 +26,8 @@ redirect_from:
 📫 How to reach me: [haohengzhao@zju.edu.cn](mailto:haohengzhao@zju.edu.cn).
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.09 - Present*, Master, College of Control Science and Engineering, Zhejiang University, Hangzhou.
+- *2021.09 - 2025.06*, Undergraduate, College of Automation, Zhejiang Univeristy, Hangzhou.
 
 
 # 🔥 News
