@@ -17,11 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# 😉 About Me
+
 🌱 Hi, I'm Haoheng Zhao, a Master’s student at **Zhejiang University** (ZJU).
 
 🔭 I’m currently focused on **machine learning**, **data mining**, **time-series modeling**, and **intelligent systems**, and I enjoy turning research ideas into practical projects. Previously, I worked on **autonomous driving**, including **behavior decision-making**, **motion planning**, and **control**. Going forward, I’m also exploring **large language models (LLMs)** and their applications in real-world systems.
 
 📫 How to reach me: [haohengzhao@zju.edu.cn](mailto:haohengzhao@zju.edu.cn).
+
+# 📖 Educations
+- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 
 # 🔥 News
@@ -47,10 +53,6 @@ redirect_from:
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
