@@ -27,7 +27,7 @@ redirect_from:
 
 # 📖 Educations
 - *2025.09 - Present*, Master, College of Control Science and Engineering, Zhejiang University, Hangzhou.
-- *2021.09 - 2025.06*, Undergraduate, College of Automation, Zhejiang Univeristy, Hangzhou.
+- *2021.09 - 2025.06*, Undergraduate, College of Automation, Hangzhou Dianzi University, Hangzhou.
 
 
 # 🔥 News
