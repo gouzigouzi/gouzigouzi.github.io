@@ -25,14 +25,16 @@ redirect_from:
 
 📫 How to reach me: [haohengzhao@zju.edu.cn](mailto:haohengzhao@zju.edu.cn).
 
+
 # 📖 Educations
 - *2025.09 - Present*, Master, College of Control Science and Engineering, Zhejiang University, Hangzhou.
 - *2021.09 - 2025.06*, Undergraduate, College of Automation, Hangzhou Dianzi University, Hangzhou.
 
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 💻 Internships
+- *2025.07 - Present*, Big Data Algorithms Intern, [Big Data Department, North Valley Research](https://fuxi.163.com/), Hangzhou.
+- *2024.11 - 2025.04*, Robotics Algorithms Intern, [Fuxi Department, NetEase](https://www.nvr-us.com/), Hangzhou.
+
 
 # 📝 Publications 
 
@@ -57,6 +59,3 @@ redirect_from:
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
