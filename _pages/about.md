@@ -32,8 +32,8 @@ redirect_from:
 
 
 # 💻 Internships
-- *2025.07 - Present*, Big Data Algorithms Intern, [Big Data Department, North Valley Research](https://fuxi.163.com/), Hangzhou.
-- *2024.11 - 2025.04*, Robotics Algorithms Intern, [Fuxi Department, NetEase](https://www.nvr-us.com/), Hangzhou.
+- *2025.07 - Present*, Big Data Algorithms Intern, [Big Data Department, North Valley Research](https://www.nvr-us.com/), Hangzhou.
+- *2024.11 - 2025.04*, Robotics Algorithms Intern, [Fuxi Department, NetEase](https://fuxi.163.com/), Hangzhou.
 
 
 # 📝 Publications 
