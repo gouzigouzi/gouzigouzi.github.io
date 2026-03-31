@@ -1,4 +1,4 @@
----
+﻿---
 permalink: /
 title: ""
 excerpt: ""
@@ -39,7 +39,7 @@ redirect_from:
 # 💡 Publications
 
 <li>
-<span class="highlight">IMCEC 2024</span> <a href="https://ieeexplore.ieee.org/abstract/document/10575093">A Combined Adaptive Zebra Optimization and Perturb & Observe MPPT Algorithm in PV System under Partial Shading Conditions</a> <b>Haoheng Zhao</b>, Sichao Xie, Chengyang Zhang, Chenxu Yan, Guangyu Liu<sup>†</sup>,  <i>IEEE Advanced Information Management, Communicates, Electronic and Automation Control Conference (<strong>IMCEC</strong>)</i>
+<span class="highlight">IMCEC 2024</span> <a href="https://ieeexplore.ieee.org/abstract/document/10575093">A Combined Adaptive Zebra Optimization and Perturb &amp; Observe MPPT Algorithm in PV System under Partial Shading Conditions</a> <b>Haoheng Zhao</b>, Sichao Xie, Chengyang Zhang, Chenxu Yan, Guangyu Liu<sup>†</sup>,  <i>IEEE Advanced Information Management, Communicates, Electronic and Automation Control Conference (<strong>IMCEC</strong>)</i>
 </li>
 
 # 🎖 Honors and Awards
