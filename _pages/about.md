@@ -43,10 +43,14 @@ redirect_from:
 </li>
 </ul>
 
+# 🏇🏻 Competitions
+- *2024*, Zhejiang Province Smart Car Competition for College Students (**Provincial First Prize, Key Member**)
+- *2023*, National Smart Car Competition for College Students (**National First Prize, Project Leader**)
+- *2023*, Zhejiang Province Advanced Mathematics Competition (**Provincial Third Prize**)
+- *2023*, Zhejiang Province Smart Car Competition for College Students (**Provincial First Prize, Project Leader**)
+- *2023*, Zhejiang Province Physics Innovation (Theoretical) Competition (**Provincial Third Prize**)
+
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
