@@ -39,18 +39,20 @@ redirect_from:
 # 💡 Publications
 <ul>
 <li>
-<span style="display:inline-block;margin-right:0.4rem;padding:0.08rem 0.55rem;background:#1f3f99;color:#fff;font-size:0.8em;font-weight:700;line-height:1.25;white-space:nowrap;">IMCEC 2024</span> <a href="https://ieeexplore.ieee.org/abstract/document/10575093">A Combined Adaptive Zebra Optimization and Perturb & Observe MPPT Algorithm in PV System under Partial Shading Conditions</a> <b>Haoheng Zhao</b>, Sichao Xie, Chengyang Zhang, Chenxu Yan, Guangyu Liu<sup>†</sup>,  <i>IEEE Advanced Information Management, Communicates, Electronic and Automation Control Conference (<strong>IMCEC</strong>)</i>
+<span style="display:inline-block;margin-right:0.4rem;padding:0.08rem 0.55rem;background:#1f3f99;color:#fff;font-size:0.8em;font-weight:700;line-height:1.25;white-space:nowrap;">IMCEC 2024</span> <a href="https://ieeexplore.ieee.org/abstract/document/10575093">A Combined Adaptive Zebra Optimization and Perturb & Observe MPPT Algorithm in PV System under Partial Shading Conditions</a> <b>Haoheng Zhao</b>, Sichao Xie, Chengyang Zhang, Chenxu Yan, Guangyu Liu<sup>†</sup>,  <i>IEEE Advanced Information Management, Communicates, Electronic and Automation Control Conference (<strong>IMCEC</strong>).</i>
 </li>
 </ul>
 
 # 🏇🏻 Competitions
-- *2024*, Zhejiang Province Smart Car Competition for College Students (**Provincial First Prize, Key Member**)
-- *2023*, National Smart Car Competition for College Students (**National First Prize, Project Leader**)
-- *2023*, Zhejiang Province Advanced Mathematics Competition (**Provincial Third Prize**)
-- *2023*, Zhejiang Province Smart Car Competition for College Students (**Provincial First Prize, Project Leader**)
-- *2023*, Zhejiang Province Physics Innovation (Theoretical) Competition (**Provincial Third Prize**)
+- *2024.09*, Zhejiang Province Smart Car Competition for College Students (**Provincial First Prize, Key Member**).
+- *2023.08*, National Smart Car Competition for College Students (**National First Prize, Project Leader**).
+- *2023.08*, Zhejiang Province Advanced Mathematics Competition (**Provincial Third Prize**).
+- *2023.07*, Zhejiang Province Smart Car Competition for College Students (**Provincial First Prize, Project Leader**).
+- *2023.01*, Zhejiang Province Physics Innovation (Theoretical) Competition (**Provincial Third Prize**).
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.06*, Outstanding Graduate of Zhejiang Province (Undergraduate).
+- *2024.12*, National Scholarship (Top 1%).
+- *2023.12*, National Scholarship (Top 1%).
+- *2022.12*, Zhejiang Provincial Government Scholarship.
 
