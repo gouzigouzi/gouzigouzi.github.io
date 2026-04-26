@@ -68,7 +68,7 @@
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
       {% endif %}
       {% if author.huggingface %}
-        <li><a href="{{ author.huggingface }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Hugging Face</a></li>
+        <li><a href="{{ author.huggingface }}"><img src="{{ '/assets/images/icons/huggingface.svg' | relative_url }}" class="social-icon-image" alt=""> Hugging Face</a></li>
       {% endif %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
@@ -166,7 +166,7 @@
         <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.huggingface %}
-        <a href="{{ author.huggingface }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
+        <a href="{{ author.huggingface }}"><img src="{{ '/assets/images/icons/huggingface.svg' | relative_url }}" class="social-icon-image" alt="Hugging Face"></a>
       {% endif %}
       {% if author.stackoverflow %}
         <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i></a>
