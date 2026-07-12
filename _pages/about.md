@@ -39,6 +39,9 @@ redirect_from:
 # 💡 Publications
 <ul>
 <li>
+<span style="display:inline-block;margin-right:0.4rem;padding:0.08rem 0.55rem;background:#1f3f99;color:#fff;font-size:0.8em;font-weight:700;line-height:1.25;white-space:nowrap;">CSIS-IAC 2026</span> <a href="https://ieeexplore.ieee.org/document/11585037">Dynamic Adaptive Graph Temporal Attention Network for Engine Oil Indicators Soft Sensing</a> <b>Haoheng Zhao</b>, Yongqiang Zhang, Qing Zhao, Lin Zhang, Qinmin Yang, Weiwei Cao, <i>2026 International Annual Conference on Complex Systems and Intelligent Science (<strong>CSIS-IAC</strong>), pp. 713–718.</i>
+</li>
+<li>
 <span style="display:inline-block;margin-right:0.4rem;padding:0.08rem 0.55rem;background:#1f3f99;color:#fff;font-size:0.8em;font-weight:700;line-height:1.25;white-space:nowrap;">IMCEC 2024</span> <a href="https://ieeexplore.ieee.org/abstract/document/10575093">A Combined Adaptive Zebra Optimization and Perturb & Observe MPPT Algorithm in PV System under Partial Shading Conditions</a> <b>Haoheng Zhao</b>, Sichao Xie, Chengyang Zhang, Chenxu Yan, Guangyu Liu<sup>†</sup>,  <i>IEEE Advanced Information Management, Communicates, Electronic and Automation Control Conference (<strong>IMCEC</strong>).</i>
 </li>
 </ul>
