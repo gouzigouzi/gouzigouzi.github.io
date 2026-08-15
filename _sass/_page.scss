@@ -208,6 +208,121 @@
   }
 }
 
+.mochi {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.35rem;
+  z-index: 20;
+}
+
+.mochi__pet {
+  width: 7.5rem;
+  height: 8.125rem;
+  padding: 0;
+  background-color: transparent;
+  background-image: url('/assets/images/mochi/spritesheet.webp');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 800% 1100%;
+  border: 0;
+  cursor: pointer;
+  filter: drop-shadow(0 0.35rem 0.45rem rgba(#000, 0.16));
+  animation: mochi-idle 2.4s steps(8) infinite;
+
+  &:hover,
+  &:focus-visible {
+    transform: scale(1.06);
+    outline: none;
+  }
+
+  &:focus-visible {
+    filter: drop-shadow(0 0.35rem 0.45rem rgba(#000, 0.16)) drop-shadow(0 0 0.2rem $primary-color);
+  }
+
+  &.is-greeting {
+    animation: mochi-idle 2.4s steps(8) infinite, mochi-greeting 0.7s ease-in-out 2;
+  }
+}
+
+.mochi__message {
+  max-width: 13.5rem;
+  margin: 0;
+  padding: 0.55rem 0.8rem;
+  color: $text-color;
+  font-size: 0.84em;
+  line-height: 1.4;
+  text-align: center;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(0.4rem) scale(0.96);
+  background: #fff;
+  border: 1px solid $border-color;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.35rem 1rem rgba(#000, 0.11);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+
+  &::after {
+    position: absolute;
+    right: 1.3rem;
+    bottom: -0.4rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    content: '';
+    background: #fff;
+    border-right: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+    transform: rotate(45deg);
+  }
+}
+
+.mochi.is-speaking .mochi__message {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+@keyframes mochi-idle {
+  from { background-position: 0 0; }
+  to { background-position: -800% 0; }
+}
+
+@keyframes mochi-greeting {
+  0%, 100% { transform: translateY(0) rotate(0); }
+  45% { transform: translateY(-0.55rem) rotate(-4deg); }
+  70% { transform: translateY(-0.2rem) rotate(3deg); }
+}
+
+@media (max-width: 40em) {
+  .mochi {
+    right: 0.65rem;
+    bottom: 0.65rem;
+  }
+
+  .mochi__pet {
+    width: 5.9rem;
+    height: 6.4rem;
+  }
+
+  .mochi__message {
+    max-width: 11.5rem;
+    font-size: 0.76em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mochi__pet,
+  .mochi__pet.is-greeting {
+    animation: none;
+  }
+
+  .mochi__message {
+    transition: none;
+  }
+}
+
 .page__hero {
   position: relative;
   margin-bottom: 2em;
