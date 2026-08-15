@@ -118,6 +118,132 @@
   }
 }
 
+.photo-gallery {
+  margin: 1.25em 0 3em;
+}
+
+.photo-gallery__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  margin-bottom: 0.85em;
+}
+
+.page__content .photo-gallery__intro {
+  margin: 0;
+  color: mix(#000, $text-color, 55%);
+  font-size: 0.92em;
+}
+
+.photo-gallery__controls {
+  display: flex;
+  gap: 0.45em;
+  flex-shrink: 0;
+}
+
+.photo-gallery__button {
+  display: grid;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  place-items: center;
+  color: $text-color;
+  font-size: 1.15rem;
+  line-height: 1;
+  background: #fff;
+  border: 1px solid $border-color;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: color 0.18s ease, background-color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+
+  &:hover,
+  &:focus-visible {
+    color: #fff;
+    background: $primary-color;
+    border-color: $primary-color;
+    transform: translateY(-1px);
+  }
+}
+
+.photo-gallery__track {
+  display: flex;
+  gap: 1.1rem;
+  padding: 0.2rem 0.1rem 0.85rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: mix(#fff, $text-color, 25%) transparent;
+
+  &::-webkit-scrollbar {
+    height: 0.45rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: mix(#fff, $text-color, 25%);
+    border-radius: 999px;
+  }
+}
+
+.photo-gallery__item {
+  flex: 0 0 min(76%, 23rem);
+  margin: 0;
+  overflow: hidden;
+  scroll-snap-align: start;
+  background: #fff;
+  border: 1px solid $border-color;
+  border-radius: 0.65rem;
+  box-shadow: 0 0.35rem 1rem rgba(#000, 0.08);
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    transition: transform 0.35s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.03);
+  }
+
+  figcaption {
+    padding: 0.65rem 0.8rem 0.75rem;
+    color: mix(#000, $text-color, 65%);
+    font-size: 0.85em;
+  }
+}
+
+.photo-gallery__empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 8rem;
+  padding: 1.25rem;
+  color: mix(#000, $text-color, 55%);
+  text-align: center;
+  background: mix(#fff, $border-color, 65%);
+  border: 1px dashed $border-color;
+  border-radius: 0.65rem;
+
+  span {
+    color: $primary-color;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+@include breakpoint(max-width $small) {
+  .photo-gallery__item {
+    flex-basis: 88%;
+  }
+}
+
 .page__hero {
   position: relative;
   margin-bottom: 2em;

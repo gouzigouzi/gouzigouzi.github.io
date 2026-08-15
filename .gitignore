@@ -1,3 +1,7 @@
 _site/
 push.sh
 .DS_Store
+assets/images/gallery/.DS_Store
+assets/images/gallery/*.HEIC
+assets/images/gallery/*.JPG
+assets/images/gallery/*.JPEG

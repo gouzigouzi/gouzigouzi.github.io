@@ -25,6 +25,33 @@ redirect_from:
 
 📫 How to reach me: [haohengzhao@zju.edu.cn](mailto:haohengzhao@zju.edu.cn).
 
+# 📸 Life in Frames
+
+<section class="photo-gallery" aria-label="Personal photo gallery">
+  {% if site.data.gallery.size > 0 %}
+  <div class="photo-gallery__header">
+    <p class="photo-gallery__intro">A few moments beyond research and code.</p>
+    <div class="photo-gallery__controls" aria-label="Gallery controls">
+      <button class="photo-gallery__button" type="button" data-gallery-scroll="previous" aria-label="Show previous photos">←</button>
+      <button class="photo-gallery__button" type="button" data-gallery-scroll="next" aria-label="Show next photos">→</button>
+    </div>
+  </div>
+  <div class="photo-gallery__track" data-gallery-track tabindex="0">
+    {% for photo in site.data.gallery %}
+    <figure class="photo-gallery__item">
+      <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt }}" loading="lazy">
+      {% if photo.caption %}<figcaption>{{ photo.caption }}</figcaption>{% endif %}
+    </figure>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="photo-gallery__empty">
+    <span aria-hidden="true">✦</span>
+    <p>Personal photos will appear here soon.</p>
+  </div>
+  {% endif %}
+</section>
+
 
 # 📖 Educations
 - *2025.09 - Present*, Master, College of Control Science and Engineering, Zhejiang University, Hangzhou.
@@ -59,3 +86,4 @@ redirect_from:
 - *2023.12*, National Scholarship (Top 1%).
 - *2022.12*, Zhejiang Provincial Government Scholarship.
 
+<script src="{{ '/assets/js/photo-gallery.js' | relative_url }}"></script>
