@@ -12,18 +12,36 @@
   ];
   var hideTimer;
   var nextGreetingTimer;
-  var idleFrames = ['0%', '14.2857%', '28.5714%', '42.8571%', '57.1429%', '71.4286%', '85.7143%', '100%'];
+  var idleFrameDurations = [360, 150, 150, 210, 210, 150, 150, 360];
   var idleFrame = 0;
+  var idleTimer;
+
+  function paintIdleFrame() {
+    var frameWidth = parseFloat(window.getComputedStyle(pet).width);
+    var frameHeight = parseFloat(window.getComputedStyle(pet).height);
+
+    // Mochi uses an 8 × 11 Codex atlas. Pixel values keep every frame exactly
+    // aligned to its 192 × 208 source cell at every responsive display size.
+    pet.style.backgroundSize = (frameWidth * 8) + 'px ' + (frameHeight * 11) + 'px';
+    pet.style.backgroundPosition = (-idleFrame * frameWidth) + 'px 0px';
+  }
 
   function playIdleFrame() {
-    pet.style.backgroundPosition = idleFrames[idleFrame] + ' 0';
-    idleFrame = (idleFrame + 1) % idleFrames.length;
+    var duration = idleFrameDurations[idleFrame];
+    paintIdleFrame();
+    idleFrame = (idleFrame + 1) % idleFrameDurations.length;
+    idleTimer = window.setTimeout(playIdleFrame, duration);
   }
 
   if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     playIdleFrame();
-    window.setInterval(playIdleFrame, 300);
+  } else {
+    paintIdleFrame();
   }
+
+  window.addEventListener('resize', function () {
+    paintIdleFrame();
+  });
 
   function scheduleGreeting() {
     window.clearTimeout(nextGreetingTimer);
