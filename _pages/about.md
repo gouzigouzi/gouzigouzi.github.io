@@ -19,7 +19,7 @@ redirect_from:
 
 # 😉 About Me
 
-🌱 Hi, I'm Haoheng Zhao, a Master’s student at **Zhejiang University** (ZJU).
+🌱 Hi, I'm Haoheng Zhao. You can call me Ethan! I'm a Master’s student at **Zhejiang University** (ZJU).
 
 🔭 I’m currently focused on **machine learning**, **data mining**, **time-series modeling**, and **intelligent systems**, and I enjoy turning research ideas into practical projects. Previously, I worked on **autonomous driving**, including **behavior decision-making**, **motion planning**, and **control**. Going forward, I’m exploring **large language models (LLMs)** and **AI agents**, with an interest in agentic reasoning and real-world intelligent systems.
 
