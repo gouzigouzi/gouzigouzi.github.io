@@ -80,6 +80,8 @@ redirect_from:
 <script src="{{ '/assets/js/photo-gallery.js' | relative_url }}"></script>
 <aside class="mochi" data-mochi aria-label="Mochi, Ethan's virtual pet">
   <p class="mochi__message" data-mochi-message role="status" aria-live="polite"></p>
-  <button class="mochi__pet" type="button" data-mochi-pet aria-label="Say hello to Mochi"></button>
+  <button class="mochi__pet" type="button" data-mochi-pet aria-label="Say hello to Mochi">
+    <img src="{{ '/assets/images/mochi/idle.webp' | relative_url }}" alt="">
+  </button>
 </aside>
 <script src="{{ '/assets/js/mochi.js' | relative_url }}"></script>
