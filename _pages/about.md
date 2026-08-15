@@ -25,17 +25,8 @@ redirect_from:
 
 📫 How to reach me: [haohengzhao@zju.edu.cn](mailto:haohengzhao@zju.edu.cn).
 
-# 📸 Life in Frames
-
-<section class="photo-gallery" aria-label="Personal photo gallery">
+<section class="photo-gallery" aria-label="Personal photo gallery. Swipe or use the left and right arrow keys to browse." data-gallery>
   {% if site.data.gallery.size > 0 %}
-  <div class="photo-gallery__header">
-    <p class="photo-gallery__intro">A few moments beyond research and code.</p>
-    <div class="photo-gallery__controls" aria-label="Gallery controls">
-      <button class="photo-gallery__button" type="button" data-gallery-scroll="previous" aria-label="Show previous photos">←</button>
-      <button class="photo-gallery__button" type="button" data-gallery-scroll="next" aria-label="Show next photos">→</button>
-    </div>
-  </div>
   <div class="photo-gallery__track" data-gallery-track tabindex="0">
     {% for photo in site.data.gallery %}
     <figure class="photo-gallery__item">

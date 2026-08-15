@@ -1,18 +1,18 @@
 # Add one entry for each web-ready image stored in assets/images/gallery/web/.
 # You can adjust the display order, alt text, and optional captions below.
-- image: /assets/images/gallery/web/FullSizeRender.jpg
+- image: /assets/images/gallery/web/IMG_4166.jpg
   alt: Personal photo 1
 - image: /assets/images/gallery/web/IMG_1085.jpg
   alt: Personal photo 2
-- image: /assets/images/gallery/web/IMG_1163.jpg
-  alt: Personal photo 3
 - image: /assets/images/gallery/web/IMG_1715.jpg
+  alt: Personal photo 3
+- image: /assets/images/gallery/web/FullSizeRender.jpg
   alt: Personal photo 4
-- image: /assets/images/gallery/web/IMG_1847.jpg
+- image: /assets/images/gallery/web/IMG_1163.jpg
   alt: Personal photo 5
-- image: /assets/images/gallery/web/IMG_2022.jpg
+- image: /assets/images/gallery/web/IMG_1847.jpg
   alt: Personal photo 6
-- image: /assets/images/gallery/web/IMG_4166.jpg
+- image: /assets/images/gallery/web/IMG_2022.jpg
   alt: Personal photo 7
 - image: /assets/images/gallery/web/IMG_5087.jpg
   alt: Personal photo 8

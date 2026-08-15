@@ -7,13 +7,6 @@
     return firstItem ? firstItem.getBoundingClientRect().width + 18 : track.clientWidth * 0.8;
   };
 
-  document.querySelectorAll('[data-gallery-scroll]').forEach(function (button) {
-    button.addEventListener('click', function () {
-      var direction = button.getAttribute('data-gallery-scroll') === 'next' ? 1 : -1;
-      track.scrollBy({ left: direction * scrollAmount(), behavior: 'smooth' });
-    });
-  });
-
   track.addEventListener('keydown', function (event) {
     if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
     event.preventDefault();
@@ -22,4 +15,31 @@
       behavior: 'smooth'
     });
   });
+
+  var dragStartX = 0;
+  var dragStartScrollLeft = 0;
+  var isDragging = false;
+
+  track.addEventListener('pointerdown', function (event) {
+    if (event.pointerType !== 'mouse' || event.button !== 0) return;
+    dragStartX = event.clientX;
+    dragStartScrollLeft = track.scrollLeft;
+    isDragging = true;
+    track.classList.add('is-dragging');
+    track.setPointerCapture(event.pointerId);
+  });
+
+  track.addEventListener('pointermove', function (event) {
+    if (!isDragging) return;
+    track.scrollLeft = dragStartScrollLeft - (event.clientX - dragStartX);
+  });
+
+  var stopDragging = function () {
+    if (!isDragging) return;
+    isDragging = false;
+    track.classList.remove('is-dragging');
+  };
+
+  track.addEventListener('pointerup', stopDragging);
+  track.addEventListener('pointercancel', stopDragging);
 })();
