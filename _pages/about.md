@@ -81,7 +81,10 @@ redirect_from:
 <aside class="mochi" data-mochi aria-label="Mochi, Ethan's virtual pet">
   <p class="mochi__message" data-mochi-message role="status" aria-live="polite"></p>
   <button class="mochi__pet" type="button" data-mochi-pet aria-label="Say hello to Mochi">
-    <img src="{{ '/assets/images/mochi/mochi-still.webp' | relative_url }}" alt="">
+    <span class="mochi__visual">
+      <img src="{{ '/assets/images/mochi/mochi-still.webp' | relative_url }}" alt="">
+      <span class="mochi__blink" aria-hidden="true"></span>
+    </span>
   </button>
 </aside>
 <script src="{{ '/assets/js/mochi.js' | relative_url }}"></script>
