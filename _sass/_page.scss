@@ -231,7 +231,6 @@
   border: 0;
   cursor: pointer;
   filter: drop-shadow(0 0.35rem 0.45rem rgba(#000, 0.16));
-  animation: mochi-idle 2.4s linear infinite;
 
   &:hover,
   &:focus-visible {
@@ -244,7 +243,7 @@
   }
 
   &.is-greeting {
-    animation: mochi-idle 2.4s linear infinite, mochi-greeting 0.7s ease-in-out 2;
+    animation: mochi-greeting 0.7s ease-in-out 2;
   }
 }
 
@@ -282,18 +281,6 @@
 .mochi.is-speaking .mochi__message {
   opacity: 1;
   transform: translateY(0) scale(1);
-}
-
-@keyframes mochi-idle {
-  0%, 12.49% { background-position: 0 0; }
-  12.5%, 24.99% { background-position: 14.2857% 0; }
-  25%, 37.49% { background-position: 28.5714% 0; }
-  37.5%, 49.99% { background-position: 42.8571% 0; }
-  50%, 62.49% { background-position: 57.1429% 0; }
-  62.5%, 74.99% { background-position: 71.4286% 0; }
-  75%, 87.49% { background-position: 85.7143% 0; }
-  87.5%, 99.99% { background-position: 100% 0; }
-  100% { background-position: 0 0; }
 }
 
 @keyframes mochi-greeting {

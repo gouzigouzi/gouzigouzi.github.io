@@ -12,6 +12,18 @@
   ];
   var hideTimer;
   var nextGreetingTimer;
+  var idleFrames = ['0%', '14.2857%', '28.5714%', '42.8571%', '57.1429%', '71.4286%', '85.7143%', '100%'];
+  var idleFrame = 0;
+
+  function playIdleFrame() {
+    pet.style.backgroundPosition = idleFrames[idleFrame] + ' 0';
+    idleFrame = (idleFrame + 1) % idleFrames.length;
+  }
+
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    playIdleFrame();
+    window.setInterval(playIdleFrame, 300);
+  }
 
   function scheduleGreeting() {
     window.clearTimeout(nextGreetingTimer);
