@@ -50,8 +50,26 @@ redirect_from:
 
 
 # 💻 Internships
-- *2025.07 - Present*, Big Data Algorithms Intern, [Big Data Department, North Valley Research](https://www.nvr-us.com/), Hangzhou.
-- *2024.11 - 2025.04*, Robotics Algorithms Intern, [Fuxi Department, NetEase](https://fuxi.163.com/), Hangzhou.
+<ul class="internship-list">
+  <li class="internship-item">
+    <a class="company-logo" href="https://www.bytedance.com/" aria-label="ByteDance">
+      <img src="/assets/images/companies/bytedance.png" alt="ByteDance logo">
+    </a>
+    <div><em>2026.06 - 2026.10</em>, Agent Development Intern, <a href="https://www.bytedance.com/">Douyin Group, ByteDance</a>, Hangzhou.</div>
+  </li>
+  <li class="internship-item">
+    <a class="company-logo" href="https://www.nvr-us.com/" aria-label="North Valley Research">
+      <img src="/assets/images/companies/nvr.png" alt="North Valley Research logo">
+    </a>
+    <div><em>2025.07 - Present</em>, Big Data Algorithms Intern, <a href="https://www.nvr-us.com/">Big Data Department, North Valley Research</a>, Hangzhou.</div>
+  </li>
+  <li class="internship-item">
+    <a class="company-logo" href="https://fuxi.163.com/" aria-label="NetEase">
+      <img src="/assets/images/companies/netease-wordmark.png" alt="NetEase logo">
+    </a>
+    <div><em>2024.11 - 2025.04</em>, Robotics Algorithms Intern, <a href="https://fuxi.163.com/">Fuxi Department, NetEase</a>, Hangzhou.</div>
+  </li>
+</ul>
 
 
 # 💡 Publications
